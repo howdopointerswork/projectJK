@@ -18,8 +18,11 @@ model User{
 	username String @unique
 	password String
 	email String
-	level Int
-	exp Int
+	level Int @default(1)
+	exp Int @default(0)
+	height Float @default(0)
+	weight Float @default(0)
+	dob DateTime @default(now())
 	PillarProgress Int[]
 	CheckIn DateTime @default(now())
 }

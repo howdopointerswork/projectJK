@@ -8,9 +8,10 @@
 
 
 	input{
-		width: 200px;
+		width: 400px;
 		margin: 0 auto;
 		font-size: 1.5em;
+		margin-bottom: 1em;
 
 	}
 
@@ -19,11 +20,12 @@
 		text-align: center;
 		margin: 0 auto;
 		font-size: 1.5em;
+	
 		
 	}
 
 	label{
-
+		text-align: center;
 		font-size: 1.5em;
 	}
 }
@@ -47,5 +49,34 @@ ul{
 	}
 }
  
+button{
 
+	border-radius: 16px;
+	padding: 0.5em;
+	margin: 1em;
 
+}
+
+input{
+
+	margin: 1em;
+
+}
+
+.loginPage{
+/*	background-color: #000217;*/
+	width: 50%;
+	margin: 0 auto;
+}
+
+.loginButton:hover, .regButton:hover{
+	background-color: #6bcdfa;
+	
+		
+}
+
+.loginArea, .registerArea{
+
+	background-color: white;
+	margin-top: 20vh;
+}
