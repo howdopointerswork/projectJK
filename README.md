@@ -345,3 +345,72 @@ What do you believe about suffering?
 What do you believe about relationships?
 What do you believe about death and mortality?
 What do you believe makes a person admirable?
+
+
+AI MENTOR OUTPUT
+
+After the assessment, the AI should produce:
+
+YOUR CHAPTER
+Overall Snapshot
+
+A concise summary of the person's current life.
+
+Strengths
+
+3–5 areas where the person is doing well.
+
+Growth Areas
+
+3–5 areas that deserve attention.
+
+Important Changes
+
+What has changed since the previous check-in.
+
+Connections
+
+Relationships between different pillars.
+
+Example:
+"Your sleep has declined while your stress and academic workload have increased."
+
+Biggest Opportunity
+
+The single change that could create the most positive impact.
+
+Recommended Priorities
+
+No more than 3 major priorities for the next 90 days.
+
+Suggested Actions
+
+Specific actions for each priority.
+
+Mentor Message
+
+A personalized, encouraging message that treats the current period as a chapter rather than a pass/fail evaluation.
+
+Chapter Title
+
+Generate a meaningful title for this period.
+
+Example:
+
+ARC 07 — Building Momentum
+
+Quarterly Record
+
+Store:
+
+Date
+Chapter title
+Major accomplishments
+Major challenges
+Goals
+Progress
+Key reflections
+Important changes
+User-selected highlights
+
+The system should emphasize growth over perfection. A difficult quarter is still a chapter worth recording.
