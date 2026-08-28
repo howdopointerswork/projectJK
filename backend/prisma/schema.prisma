@@ -25,4 +25,6 @@ model User{
 	dob DateTime @default(now())
 	PillarProgress Int[]
 	CheckIn DateTime @default(now())
+	tutorial Boolean @default(false)
+
 }

@@ -24,7 +24,7 @@ function Dashboard(){
 			<header><Logout /></header>
 
 
-			<h1>Dashboard</h1>
+			<h1 style={{ textAlign: "center", color: "white" }}>Dashboard</h1>
 
 		</div>
 

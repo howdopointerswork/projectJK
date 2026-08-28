@@ -64,6 +64,9 @@ function Login(){
 			setUsername_v(false);
 			setEmail_v(false);
 			setConfirm_v(false);
+
+		
+
 		}else{
 			setLogin_v(false);
 		}
@@ -296,13 +299,20 @@ function Login(){
 	return(
 		<div className="loginPage"> 
 
-			<ul style={{ backgroundColor: "#000217" }}>	
-				<li><button onClick={e => showForm(e, false)}>Login</button></li>
-				<li><button onClick={e => showForm(e, true)}>Register</button></li>
+		
+
+			<ul style={{ backgroundColor: "#051019", marginBottom: "0em" }}>
+
+				<li><img style={{ paddingTop: "2em", marginRight: "2em" }} src="jk_logo.png"/></li>
+				<li><button className={!register ? "selected" : "unselected"} onClick={e => showForm(e, false)}>Login</button></li>
+				<li><button className={register ? "selected" : "unselected"} onClick={e => showForm(e, true)}>Register</button></li>
 			</ul>
+
 			
 			
-			<div className="loginArea">
+			<div className="loginArea" style={{ marginTop: "0em" }}>
+
+			<h1 style={{ textAlign: "center", marginBottom: "2em", fontSize: "2em" }}>Project JK</h1>
 
 			<form className="loginForm" style={{display: !register ? "flex" : "none"}}>
 				<label htmlFor="username">Username</label>
@@ -311,12 +321,12 @@ function Login(){
 
 				<label htmlFor="password">Password</label>
 				<input type="password" value={pw} name="password"  onChange={(e) => setPW(e.target.value)}/>
-				<p className="error_login" style={{color: "red", display: login_v ? "block" : "none" }}>Invalid credentials</p>
+				<p className="error_login" style={{color: "red", display: login_v ? "block" : "none", textAlign: "center" }}>Invalid credentials</p>
 
-				<button className="loginButton" onClick={e => authUser(e)}>Login</button>
+				<button className="loginButton" style={{ marginBottom: "2em" }} onClick={e => authUser(e)}>Login</button>
 			</form>
 
-
+				<a style={{margin: "1em", textDecoration: "none", color: "black", display: !register ? "block" : "none" }} href="">Forgot Password</a>
 			</div>
 
 
@@ -327,11 +337,11 @@ function Login(){
 				
 				<label htmlFor="rUsername">Username</label>
 				<input type="text" value={username} onChange={(e) => setUsername(e.target.value)} name="rUsername" />
-				<p className="error_username" style={{color: "red", display: username_v ? "block" : "none" }}>User already exists</p>
+				<p className="error_username" style={{color: "red", textAlign: "center", display: username_v ? "block" : "none" }}>User already exists</p>
 
 				<label htmlFor="email">Email</label>
 				<input type="email" value={email} onChange={(e) => setEmail(e.target.value)}/> 
-				<p className="error_email" style={{color: "red", display: email_v ? "block" : "none" }}>Invalid email</p>
+				<p className="error_email" style={{color: "red", display: email_v ? "block" : "none", textAlign: "center" }}>Invalid email</p>
 				
 				
 				<label htmlFor="rPassword">Password</label>
@@ -341,14 +351,14 @@ function Login(){
 				<label htmlFor="confirmPassword">Confirm Password</label>
 				<input type="password" name="confirmPassword" value={confirmPW} onChange={(e) => setConfirmPW(e.target.value)} />
 
-				<p className="error_password" style={{color: "red", display: confirm_v ? "block" : "none" }}>Passwords do not match</p>
+				<p className="error_password" style={{color: "red", display: confirm_v ? "block" : "none", textAlign: "center" }}>Passwords do not match</p>
 
 				
 				<label htmlFor="age">Date of Birth</label>
 				<input type="date" name="age" value={dob} onChange={(e) => setDOB(e.target.value)}/>
 			
 		
-				<button className="regButton" style={{ width: "200px" }} onClick={(e) => authUser(e)}>Register</button>
+				<button className="regButton" style={{ width: "200px", marginBottom: "2em" }} onClick={(e) => authUser(e)}>Register</button>
 			</form>
 
 			</div>

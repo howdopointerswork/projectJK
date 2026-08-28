@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Rajdhani:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+
+
+
 .loginForm, .registerForm{
 
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+
+	animation: fadeIn 0.5s ease-in;
 
 
 
@@ -31,6 +38,12 @@
 }
 
 
+.registerForm{
+	overflow-y: auto;
+	
+}
+
+
 
 ul{
  
@@ -55,6 +68,7 @@ button{
 	padding: 0.5em;
 	margin: 1em;
 
+
 }
 
 input{
@@ -64,19 +78,64 @@ input{
 }
 
 .loginPage{
-/*	background-color: #000217;*/
+	background-color: rgb(255,255,255,0.65);
 	width: 50%;
 	margin: 0 auto;
+	border: 2px solid black;
+	border-top: none;
+	margin-top: 5vh;
+}
+
+.loginButton, .regButton{
+	
+	background-color: white;
+	margin-bottom: 2em;
 }
 
 .loginButton:hover, .regButton:hover{
-	background-color: #6bcdfa;
-	
+	background-color: #81d4ed;
 		
 }
 
 .loginArea, .registerArea{
 
-	background-color: white;
+
 	margin-top: 20vh;
+}
+
+
+.selected{
+
+	background-color: #81d4ed;
+	color: black;
+}
+
+.unselected{
+	background-color: #051019;
+	color: white;
+}
+
+
+@keyframes fadeIn{
+
+	from{
+
+		opacity: 0;
+	}
+
+	to{
+
+		opacity: 1;
+	}
+}
+
+
+body{
+	font-family: "Orbitron", sans-serif;
+
+
+	button{
+		font-family: "Orbitron", sans-serif;
+	}
+
 }
