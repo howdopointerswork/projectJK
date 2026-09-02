@@ -24,6 +24,7 @@ function Login(){
 	const [dob_v, setDOB_v] = useState(false);
 	const [username_v, setUsername_v] = useState(false);
 	const [login_v, setLogin_v] = useState(false);
+	const [pw_v, setPW_v] = useState(false);
 
 
 	const navigate = useNavigate();
@@ -64,6 +65,7 @@ function Login(){
 			setUsername_v(false);
 			setEmail_v(false);
 			setConfirm_v(false);
+			setPW_v(false);
 
 		
 
@@ -143,7 +145,29 @@ function Login(){
 
 	function verifyPassword(){
 		
+		let hasCaps = false;
+		let numberCount = 0;
+		let hasSymbol = false;
+		let hasLower = false;
+
 		//to implement
+		for(const ch of pw){
+
+			if(ch >= "A" && ch <= "Z"){
+				hasCaps = true;
+			}else if(ch >= "0" && ch <= "9"){
+				++numberCount;
+			}else if(ch >= "!" && ch <= "47"){
+				hasSymbol = true;
+			}else if(ch >= "a" && ch <= "z"){
+				hasLower = true;
+			}
+
+		}
+
+		return hasCaps && numberCount >= 2 && hasSymbol && hasLower;
+			
+				
 	}
 
 
@@ -230,10 +254,11 @@ function Login(){
 			//ensure user does not exist first - by username, then by email
 					
 			console.log("Checking: ", !exists);
-			console.log("Verify: ", verifyEmail());
+			console.log("Verify Email: ", verifyEmail());
 			console.log("Match: ", matchPassword());
+			console.log("Verify Password: ", verifyPassword());
 
-			if(!exists && verifyEmail() && matchPassword() && nonEmpty()){
+			if(!exists && verifyEmail() && matchPassword() && nonEmpty() && verifyPassword()){
 				console.log("ready to add");
 
 				const resp = await fetch(`http://localhost:3000/user`, {
@@ -252,12 +277,34 @@ function Login(){
 					
 				
 				})
+
+				
+					const data = await resp.json();
+					//get user id here
+					console.log(data);
+					localStorage.setItem("ID", data.id);
+					localStorage.setItem("Username", data.username);
+					localStorage.setItem("Email", data.email);
+
+					navigate("/dashboard");
+
+					console.log("Logged in: ", localStorage.getItem("ID"));
+					console.log("Logged in: ", localStorage.getItem("Username"));
+
+				
+
+
+
+
+
+
 			}else{
 				console.log("auth failed");
 				
 				console.log("Checking: ", !exists);
 				console.log("Verify: ", verifyEmail());
 				console.log("Match: ", matchPassword());
+				console.log("Verify: ", verifyPassword());
 
 				if(exists){
 					console.log("user exists");
@@ -276,6 +323,12 @@ function Login(){
 
 					console.log("bad password");
 					setConfirm_v(true);
+				}
+
+				if(!verifyPassword()){
+
+					console.log("Bad password");
+					setPW_v(true);
 				}
 
 
@@ -346,6 +399,7 @@ function Login(){
 				
 				<label htmlFor="rPassword">Password</label>
 				<input type="password" name="rPassword" value={pw} onChange={(e) => setPW(e.target.value)}/>
+				<p className="error_pw" style={{color: "red", display: pw_v ? "block" : "none", textAlign: "center"}}>Password must contain at least 2 numbers, 1 capital letter, and 1 symbol</p>
 
 
 				<label htmlFor="confirmPassword">Confirm Password</label>
