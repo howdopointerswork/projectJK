@@ -5,7 +5,7 @@
 	margin: 0 auto;
 	align-items: start;
 	grid-template-rows: 0.25fr 0.75fr;
-	grid-template columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	grid-template-areas:
 	"exa_one exa_one"
 	"exa_two exa_three";
