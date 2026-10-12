@@ -26,5 +26,59 @@ model User{
 	PillarProgress Int[]
 	CheckIn DateTime @default(now())
 	tutorial Boolean @default(false)
+	following Int[]
+	followers Int[]
+	picturePath String @default("")
+	gender Boolean @default(true)
+	age Int @default(0)
+	foods Food[]
+	diets Diet[]
+	meds Medication[]
 
 }
+
+model Food{
+	id Int @id @default(autoincrement())
+	name String
+	group Int
+	desc String?
+	calories Float?
+	calcium Float?
+	fibre Float?
+	fat Float?
+	sugar Float?
+	sodium Float?
+	carbs Float?
+	protein Float?
+	img String?
+
+	servingSize String?
+	userId Int?
+	user User? @relation(fields: [userId], references: [id])
+	diet Diet[]
+
+}
+
+
+model Medication{
+	id Int @id @default(autoincrement())
+	name String
+	family String
+	desc String?
+	dosage String?
+	sideEffects String[]
+	img String?
+	userId Int?
+	user User? @relation(fields: [userId], references: [id])
+
+}
+
+model Diet{
+	id Int @id @default(autoincrement())
+	name String
+	foods Food[]
+
+	userId Int
+	user User @relation(fields: [userId], references: [id])
+}
+

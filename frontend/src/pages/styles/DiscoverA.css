@@ -1,0 +1,29 @@
+.contentD{
+	display: grid;
+	gap: 0;
+	padding: 0;
+	grid-template-rows: 0.5fr 0.25fr 0.25fr;
+	grid-template-columns: 1fr;
+	grid-template-areas:
+	"top"
+	"mid"
+	"low";
+
+}
+
+.selection{
+	grid-area: top;
+	text-align: center;
+}
+
+.searchLocations{
+	grid-area: mid;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.results{
+
+	grid-area: low;
+	border: 2px solid white;
+}

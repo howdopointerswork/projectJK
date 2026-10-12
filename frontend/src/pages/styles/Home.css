@@ -1,0 +1,63 @@
+.home_slideshow{
+
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: 
+	"ones twos";
+}
+
+.home_preview{
+
+	grid-area: twos;
+}
+
+.home_slideshow figure{
+
+	grid-area: ones;
+}
+
+.home_remainder{
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas:
+	"oness twoss";
+}
+
+.home_remainder ul{
+	grid-area: twoss;
+}
+
+.home_article1{
+
+	grid-area: oness;
+}
+
+.home_bottom{
+
+	display: grid;
+	gap: 10px;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas:
+	"oneh twoh"
+	"threeh fourh";
+}
+
+.home_one{
+	grid-area: oneh;
+}
+
+.home_two{
+	grid-area: twoh;
+}
+
+.home_three{
+	grid-area: fourh;
+
+}
+
+.home_four{
+	grid-area: threeh;
+}

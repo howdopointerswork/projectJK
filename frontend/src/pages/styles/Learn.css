@@ -1,0 +1,24 @@
+.viewer{
+
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	grid-template-columns: 0.25fr 0.75fr;
+
+	grid-template-areas:
+	"one two";
+	
+}
+
+
+.sidebar{
+	grid-area: one;
+	height: 600px;	
+}
+
+.mainContent{
+	grid-area: two;
+	height: 600px;
+
+}

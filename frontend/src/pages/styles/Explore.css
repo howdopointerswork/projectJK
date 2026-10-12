@@ -1,0 +1,68 @@
+.catalog{
+	div{
+		margin: 1em;
+	}
+	background-color: black;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas: 
+	"one two two"
+	"three four four";
+
+}
+
+.one{
+	grid-area: one;
+	background-color: #111122;
+	input{
+		text-align: center;
+		font-size: 1.5em;
+		border-radius: 10px;
+	}
+
+	button{
+		font-size: 1em;
+	}
+
+}
+
+
+.two{
+	grid-area: two;
+	color: white;
+	background-color: #111122;
+	ul li{
+		text-align: left;
+		
+	}
+	
+}
+
+.three{
+	grid-area: three;
+	text-align: center;
+	color: white;
+	background-color: #111122;
+
+	details{
+		margin: 0 auto;
+		margin-bottom: 2em;
+		border: solid 2px white;
+		width: 25%;
+		
+	}
+}
+
+.four{
+	grid-area: four;
+	height: 400px;
+	overflow-y: auto;
+	color: white;
+	background-color: #111122;
+	ul li{
+		border: 2px solid white;
+	}
+
+
+}

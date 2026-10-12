@@ -1,0 +1,67 @@
+.tableStyle {
+	color: var(--text-strong);
+	padding-top: 2em;
+	background: transparent;
+}
+
+.tableStyle td {
+	padding: 1em;
+	border-top: 1px dashed var(--line);
+	color: var(--text-strong);
+	vertical-align: top;
+}
+
+.edit-row .edit-control {
+	width: 100%;
+	min-width: 140px;
+	padding: 10px 12px;
+	border-radius: var(--radius-md);
+	border: 1px solid var(--line-strong);
+	background: #ffffff;
+	color: var(--text-strong);
+	font-size: 0.95rem;
+	line-height: 1.35;
+}
+
+.edit-row .edit-spacer {
+	color: var(--text);
+	font-size: 0.9rem;
+	vertical-align: middle;
+}
+
+.edit-row textarea.edit-control {
+	min-height: 72px;
+	resize: vertical;
+}
+
+.table-action {
+	font-size: 0.9rem;
+	font-weight: 600;
+	padding: 9px 12px;
+	border-radius: 999px;
+	border: 1px solid transparent;
+	cursor: pointer;
+}
+
+.table-action-edit {
+	background: rgba(37, 99, 235, 0.14);
+	border-color: rgba(37, 99, 235, 0.25);
+	color: var(--text-strong);
+}
+
+#transactionsButtons .table-action-delete {
+	background: rgba(248, 113, 113, 0.12);
+	border-color: rgba(248, 113, 113, 0.2);
+	color: #991b1b;
+}
+
+.table-action-cancel {
+	background: rgba(148, 163, 184, 0.2);
+	border-color: rgba(148, 163, 184, 0.3);
+	color: var(--text-strong);
+}
+
+.table-action-update {
+	background: linear-gradient(135deg, var(--accent), #1d4ed8);
+	color: #ffffff;
+}

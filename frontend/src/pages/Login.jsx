@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import "./Login.css"
+import "./styles/Login.css"
 
 console.log("Testing log in");
 
@@ -49,8 +49,9 @@ function Login(){
 		const res = await fetch(`http://localhost:3000/user/${username}`);
 		const data = await res.json();
 	
-		console.log("At check user: ",data.exists);
-		setExists(data.exists);
+		console.log("At check user: ",data.success);
+		console.log("Data is: ", data);
+		setExists(data.success);
 
 		return data;
 		
@@ -204,7 +205,7 @@ function Login(){
 			console.log("Authorizing...");
 		
 
-			if(check.exists){
+			if(check.success){
 				console.log("ready to login");
 				const resp = await fetch(`http://localhost:3000/user/login`, {
 					method: 'POST',
@@ -354,7 +355,7 @@ function Login(){
 
 		
 
-			<ul style={{ backgroundColor: "#051019", marginBottom: "0em" }}>
+			<ul className="formButtons" style={{ backgroundColor: "#051019", marginBottom: "0em" }}>
 
 				<li><img style={{ paddingTop: "2em", marginRight: "2em" }} src="jk_logo.png"/></li>
 				<li><button className={!register ? "selected" : "unselected"} onClick={e => showForm(e, false)}>Login</button></li>
@@ -365,7 +366,7 @@ function Login(){
 			
 			<div className="loginArea" style={{ marginTop: "0em" }}>
 
-			<h1 style={{ textAlign: "center", marginBottom: "2em", fontSize: "2em" }}>Project JK</h1>
+		
 
 			<form className="loginForm" style={{display: !register ? "flex" : "none"}}>
 				<label htmlFor="username">Username</label>

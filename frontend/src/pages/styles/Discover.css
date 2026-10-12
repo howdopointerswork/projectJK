@@ -1,0 +1,66 @@
+.discoverAll{
+	background-color: black;
+}
+
+.discover{
+	
+	display: flex;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: 
+	"one" "two";
+}
+
+
+.facilities{
+
+	height: 600px;
+	margin-top: 4em;
+	overflow-y: auto;
+	grid-area: one;
+	table{
+
+		background-color: #111122;
+	
+
+		thead tr td{
+			text-align: center;
+			border-bottom: solid 2px white;
+		}
+
+			tbody tr td{
+			padding: 1em;
+			text-align: center;
+			border-bottom: solid 2px white;
+
+			button{
+				background-color: green;
+				border: none;
+			}
+		}
+	}
+
+}
+
+.gps{
+
+	margin: 0 auto;
+	display: flex;
+
+	img{
+		margin: 0 auto;
+		background-color: green;
+
+	}
+}
+
+
+.search{
+
+}
+
+
+.right{
+
+	grid-area: two;
+}
