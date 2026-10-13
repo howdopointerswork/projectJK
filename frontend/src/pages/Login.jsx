@@ -377,7 +377,7 @@ function Login(){
 				<input type="password" value={pw} name="password"  onChange={(e) => setPW(e.target.value)}/>
 				<p className="error_login" style={{color: "red", display: login_v ? "block" : "none", textAlign: "center" }}>Invalid credentials</p>
 
-				<button className="loginButton" style={{ marginBottom: "2em" }}><a href="/dashboard">Login</a></button>
+				<button className="loginButton" style={{ marginBottom: "2em" }}><a href="/projectJK/dashboard">Login</a></button>
 			</form>
 
 				<a style={{margin: "1em", textDecoration: "none", color: "black", display: !register ? "block" : "none" }} href="">Forgot Password</a>
