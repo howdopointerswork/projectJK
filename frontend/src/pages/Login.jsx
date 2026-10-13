@@ -28,14 +28,14 @@ function Login(){
 
 
 	const navigate = useNavigate();
-	
+/*	
 	useEffect(() => {
 		const storedUser = localStorage.getItem("Username");
 		const storedId = localStorage.getItem("ID");
 		if (storedUser && storedUser.trim() !== "" && storedId && storedId !== "0") {
 			navigate("/dashboard");
 		}
-	}, [navigate]);
+	}, [navigate]);*/
 
 /*
 	useEffect(() => {
@@ -377,7 +377,7 @@ function Login(){
 				<input type="password" value={pw} name="password"  onChange={(e) => setPW(e.target.value)}/>
 				<p className="error_login" style={{color: "red", display: login_v ? "block" : "none", textAlign: "center" }}>Invalid credentials</p>
 
-				<button className="loginButton" style={{ marginBottom: "2em" }} onClick={e => authUser(e)}>Login</button>
+				<button className="loginButton" style={{ marginBottom: "2em" }}><a href="/dashboard">Login</a></button>
 			</form>
 
 				<a style={{margin: "1em", textDecoration: "none", color: "black", display: !register ? "block" : "none" }} href="">Forgot Password</a>
@@ -413,7 +413,7 @@ function Login(){
 				<input type="date" name="age" value={dob} onChange={(e) => setDOB(e.target.value)}/>
 			
 		
-				<button className="regButton" style={{ width: "200px", marginBottom: "2em" }} onClick={(e) => authUser(e)}>Register</button>
+				<button className="regButton" style={{ width: "200px", marginBottom: "2em" }}><a href="/dashboard">Register</a></button>
 			</form>
 
 			</div>
