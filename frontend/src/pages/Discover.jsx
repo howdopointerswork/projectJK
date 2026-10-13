@@ -15,7 +15,7 @@ function Discover(){
 				<Search />
 				<Logout />
 			</header>
-			<a href="/projectJK/dashboard" style={{ color: "white" }}>Return</a>
+			<a href="#/dashboard" style={{ color: "white" }}>Return</a>
 			<h1 style={{color: "white", textAlign: "center", borderBottom: "2px solid white", borderTop: "2px solid white", backgroundColor: "#111122"}}>Discover</h1>i
 
 			<div className="discover" style={{borderBottom: "2px solid white"}}>

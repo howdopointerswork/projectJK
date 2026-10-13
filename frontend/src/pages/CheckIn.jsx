@@ -15,7 +15,7 @@ function CheckIn(){
 				<Search />
 				<Logout />
 			</header>
-			<a href="/projectJK/dashboard" style={{ color: "white" }}>Return</a>
+			<a href="#/dashboard" style={{ color: "white" }}>Return</a>
 			<h1 style={{color: "white", textAlign: "center", borderBottom: "2px solid white"}}>Check-In</h1>
 
 			<form className="survey" style={{textAlign: "center", margin: "0 auto", fontSize: "1em"}}>

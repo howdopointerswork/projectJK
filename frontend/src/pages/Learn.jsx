@@ -18,7 +18,7 @@ function Learn(){
 				<Search />
 				<Logout />
 			</header>
-			<a href="/projectJK/dashboard" style={{ color: "white" }}>Return</a>
+			<a href="#/dashboard" style={{ color: "white" }}>Return</a>
 			<br></br>
 					<h2 style={{color: "white", textAlign: "center", borderBottom: "solid 2px white", borderTop: "solid 2px white", marginTop: "1.5em", backgroundColor: "#111122"}}>Modules</h2>
 					<ul style={{display: "flex", flexDirection: "horizontal", overflowX: "auto"}}>

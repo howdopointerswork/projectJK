@@ -30,11 +30,11 @@ function Home(){
 		<div className="dropdown" style={{ backgroundColor: "grey", position: "absolute", overflowY: "auto", height: "250px", width: "200px", margin: "0 auto", display: open ? "block" : "none" }}>
 			<ul className="displayDropdown" style={{ color: "black", textAlign: "center", display: "flex", flexDirection: "column" }}>
 				
-				<button><a href="/projectJK/profileA">Profile</a></button>
-				<button><a href="/projectJK/checkinA">Survey</a></button>
-				<button><a href="/projectJK/accountA">Account</a></button>
-				<button><a href="/projectJK/settingsA">Settings</a></button>
-				<button><a href="/projectJK/notificationsA">Notifications</a></button>
+				<button><a href="#/profileA">Profile</a></button>
+				<button><a href="#/checkinA">Survey</a></button>
+				<button><a href="#/accountA">Account</a></button>
+				<button><a href="#/settingsA">Settings</a></button>
+				<button><a href="#/notificationsA">Notifications</a></button>
 
 			</ul>
 

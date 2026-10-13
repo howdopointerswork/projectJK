@@ -66,7 +66,7 @@ function Dashboard(){
 				<div className="Two">
 
 
-			<button><a href="/projectJK/home">Prototype A Portal</a></button>
+			<button><a href="#/home">Prototype A Portal</a></button>
 
 					<table style={{color: "white", textAlign: "center", margin: "0 auto", borderBottom: "2px solid white"}}>
 						<thead>
@@ -98,7 +98,7 @@ function Dashboard(){
 				
 				<div className="Three" style={{overflowY: "auto"}}>
 
-				<button style={{padding: "none", margin: "0 auto"}}><a style={{fontSize: "1.5em"}} href="/projectJK/discover">Discover</a></button>
+				<button style={{padding: "none", margin: "0 auto"}}><a style={{fontSize: "1.5em"}} href="#/discover">Discover</a></button>
 				<ul style={{textAlign: "center", margin: "0 auto"}}>
 				
 
@@ -223,7 +223,7 @@ function Dashboard(){
 
 				<p>It has been <span style={{color: "red"}}>9</span> Days since your last Check-In</p>
 
-				<button><a href="/projectJK/checkin">Check-In Now</a></button>
+				<button><a href="#/checkin">Check-In Now</a></button>
 				
 				</div>
 				
@@ -231,7 +231,7 @@ function Dashboard(){
 				<div className="Five" height="50px" style={{overflowY: "auto"}}>
 
 					<h2 style={{color: "white", textAlign: "center"}}>More Foods For You</h2>
-					<button><a style={{fontSize: "2em"}} href="/projectJK/explore">Explore</a></button>	
+					<button><a style={{fontSize: "2em"}} href="#/explore">Explore</a></button>	
 
 					<ul style={{textAlign: "left"}}>
 							<li style={{backgroundColor: "#8f1414"}}>
@@ -280,7 +280,7 @@ function Dashboard(){
 
 				<div className="Six" style={{overflowY: "auto"}}>
 
-					<h2 style={{color: "white", textAlign: "center"}}><button><a href="/projectJK/learn">Learn</a></button></h2>
+					<h2 style={{color: "white", textAlign: "center"}}><button><a href="#/learn">Learn</a></button></h2>
 					<h3 style={{color: "white", textAlign: "center"}}>Recommended:</h3>
 		
 		<h4 style={{color: "white", textAlign: "left"}}>SSRIs: Module <span><button style={{textAlign: "right"}}>Go</button></span></h4>
