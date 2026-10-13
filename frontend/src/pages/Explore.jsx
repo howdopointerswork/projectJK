@@ -10,12 +10,12 @@ import "./styles/Explore.css";
 function Explore(){
 	
 	return(
-		<div>
-			<header style={{ float: "right" }}>
+		<div style={{backgroundColor: "black"}}>
+			<header style={{ float: "right"}}>
 				<Search />
 				<Logout />
 			</header>
-			<a href="/dashboard" style={{ color: "white" }}>Return</a>
+			<a href="/projectJK/dashboard" style={{ color: "white" }}>Return</a>
 			<h1 style={{color: "white", textAlign: "center", borderTop: "2px solid white", borderBottom: "2px solid white", marginTop: "1em", backgroundColor: "#111122"}}>Explore</h1>
 
 			<div className="catalog">
@@ -28,7 +28,7 @@ function Explore(){
 			
 				<div className="two" style={{paddingTop: "2.5em"}}>
 					<div style={{backgroundColor: "white"}}>
-					<img style={{marginRight: "1em", padding: "1em", float: "left", backgroundColor: "white"}} height="200px" width="200px" src="/burger.png"/>
+					<img style={{marginRight: "1em", padding: "1em", float: "left", backgroundColor: "white"}} height="200px" width="200px" src="/projectJK/burger.png"/>
 					</div>
 					<ul> 
 						<li>Item Name</li>
@@ -107,7 +107,7 @@ function Explore(){
 					<h2 style={{textAlign: "center", borderBottom: "2px solid white" }}>Catalog</h2>
 					<ul>
 						<li>
-							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/burger.png" height="50px" width="50px"/>
+							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/projectJK/burger.png" height="50px" width="50px"/>
 							Item Name
 							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
 
@@ -115,120 +115,75 @@ function Explore(){
 						
 
 						<li>
-							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/burger.png" height="50px" width="50px"/>
+							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/projectJK/burger.png" height="50px" width="50px"/>
 							Item Name
 							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
 
 						</li>
 
 							<li>
-							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/burger.png" height="50px" width="50px"/>
+							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/projectJK/burger.png" height="50px" width="50px"/>
 							Item Name
 							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
 
-						</li>
-
+						</li>	
 
 					<li>
-							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/burger.png" height="50px" width="50px"/>
+							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/projectJK/burger.png" height="50px" width="50px"/>
 							Item Name
 							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
 
-						</li>
-
-
-
-								<li>
-							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/burger.png" height="50px" width="50px"/>
-							Item Name
-							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
-
-						</li>
-
-							<li>
-							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/burger.png" height="50px" width="50px"/>
-							Item Name
-							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
-
-						</li>
-
-
-					<li>
-							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/burger.png" height="50px" width="50px"/>
-							Item Name
-							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
-
-						</li>
-
-
-									<li>
-							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/burger.png" height="50px" width="50px"/>
-							Item Name
-							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
-
-						</li>
-
-							<li>
-							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/burger.png" height="50px" width="50px"/>
-							Item Name
-							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
-
-						</li>
-
-
-					<li>
-							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/burger.png" height="50px" width="50px"/>
-							Item Name
-							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
-
-						</li>
-
-
-								<li>
-							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/burger.png" height="50px" width="50px"/>
-							Item Name
-							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
-
-						</li>
-
-							<li>
-							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/burger.png" height="50px" width="50px"/>
-							Item Name
-							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
-
-						</li>
-
-
-					<li>
-							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/burger.png" height="50px" width="50px"/>
-							Item Name
-							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
-
-						</li>
-
+						</li>			
 			<li>
-							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/burger.png" height="50px" width="50px"/>
+							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/projectJK/burger.png" height="50px" width="50px"/>
 							Item Name
 							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
 
-						</li>
-
-							<li>
-							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/burger.png" height="50px" width="50px"/>
-							Item Name
-							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
-
-						</li>
-
-
-					<li>
-							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/burger.png" height="50px" width="50px"/>
-							Item Name
-							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
-
-						</li>
-
+						</li>	
 					
+		<li>
+							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/projectJK/burger.png" height="50px" width="50px"/>
+							Item Name
+							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
+
+						</li>
+		
+		<li>
+							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/projectJK/burger.png" height="50px" width="50px"/>
+							Item Name
+							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
+
+						</li>
+
+		<li>
+							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/projectJK/burger.png" height="50px" width="50px"/>
+							Item Name
+							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
+
+						</li>
+
+
+		<li>
+							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/projectJK/burger.png" height="50px" width="50px"/>
+							Item Name
+							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
+
+						</li>
+
+		<li>
+							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/projectJK/burger.png" height="50px" width="50px"/>
+							Item Name
+							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
+
+						</li>
+
+
+		<li>
+							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/projectJK/burger.png" height="50px" width="50px"/>
+							Item Name
+							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>Add</button>
+
+						</li>
 
 					</ul>
 

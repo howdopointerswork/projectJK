@@ -14,7 +14,7 @@ function Dashboard(){
 
 	const id = localStorage.getItem("ID");
 
-	useEffect(() => {
+/*	useEffect(() => {
 
 		console.log("ID: ",localStorage.getItem("ID"));
 		console.log("Username: ", localStorage.getItem("Username"));
@@ -23,7 +23,7 @@ function Dashboard(){
 		
 			navigate("/");
 		}
-	}, [navigate]);
+	}, [navigate]);*/
 
 	return(
 
@@ -47,7 +47,7 @@ function Dashboard(){
 
 				<div style={{ padding: "1em", overflowY: "auto"}} className="One">
 				
-					<img src="/user.png" height="80px" width="80px" style={{marginTop: "1em"}}/>
+					<img src="/projectJK/user.png" height="80px" width="80px" style={{marginTop: "1em"}}/>
 						<br></br>
 					<a style={{ textDecoration: "none", color: "black", backgroundColor: "white", borderRadius: "10px", padding: "0.5em" }} href={`/profile/${id}`}>{localStorage.getItem("Username")}</a>
 				
@@ -66,7 +66,7 @@ function Dashboard(){
 				<div className="Two">
 
 
-			<button><a href="/home">Prototype A Portal</a></button>
+			<button><a href="/projectJK/home">Prototype A Portal</a></button>
 
 					<table style={{color: "white", textAlign: "center", margin: "0 auto", borderBottom: "2px solid white"}}>
 						<thead>
@@ -90,7 +90,7 @@ function Dashboard(){
 
 				
 
-					<img src="/health.jpg" style={{marginTop: "1em"}}/>
+					<img src="/projectJK/health.jpg" style={{marginTop: "1em"}}/>
 
 					<p style={{color: "white"}}>lorem ipsum dolor sit amet consectetur adipiscing elit distinctio nisi accusamus consequat deserunt imperdiet facilis officia non similique est culpa dolor est blanditiis culpa vero aliqua nobis et qui sint eos sint ut ut nisi corrupti dolorem reprehenderit minus consequatur cupidatat occaecat quo sit cillum soluta do esse quibusdam et</p>
 				</div>	
@@ -98,7 +98,7 @@ function Dashboard(){
 				
 				<div className="Three" style={{overflowY: "auto"}}>
 
-				<button style={{padding: "none", margin: "0 auto"}}><a style={{fontSize: "1.5em"}} href="/discover">Discover</a></button>
+				<button style={{padding: "none", margin: "0 auto"}}><a style={{fontSize: "1.5em"}} href="/projectJK/discover">Discover</a></button>
 				<ul style={{textAlign: "center", margin: "0 auto"}}>
 				
 
@@ -223,7 +223,7 @@ function Dashboard(){
 
 				<p>It has been <span style={{color: "red"}}>9</span> Days since your last Check-In</p>
 
-				<button><a href="/checkin">Check-In Now</a></button>
+				<button><a href="/projectJK/checkin">Check-In Now</a></button>
 				
 				</div>
 				
@@ -231,39 +231,39 @@ function Dashboard(){
 				<div className="Five" height="50px" style={{overflowY: "auto"}}>
 
 					<h2 style={{color: "white", textAlign: "center"}}>More Foods For You</h2>
-					<button><a style={{fontSize: "2em"}} href="/explore">Explore</a></button>	
+					<button><a style={{fontSize: "2em"}} href="/projectJK/explore">Explore</a></button>	
 
 					<ul style={{textAlign: "left"}}>
 							<li style={{backgroundColor: "#8f1414"}}>
-							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/burger.png" height="80px" width="80px"/>
+							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/projectJK/burger.png" height="80px" width="80px"/>
 							<span style={{color: "white", fontSize: "1.5em", marginLeft: "1em"}}>Item Name</span>
 							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>View</button>
 
 							</li>
 
 							<li style={{backgroundColor: "#8f1414"}}>
-							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/burger.png" height="80px" width="80px"/>
+							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/projectJK/burger.png" height="80px" width="80px"/>
 							<span style={{color: "white", fontSize: "1.5em", marginLeft: "1em"}}>Item Name</span>
 							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>View</button>
 
 							</li>
 
 							<li style={{backgroundColor: "#249615"}}>
-							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/burger.png" height="80px" width="80px"/>
+							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/projectJK/burger.png" height="80px" width="80px"/>
 							<span style={{color: "white", fontSize: "1.5em", marginLeft: "1em"}}>Item Name</span>
 							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>View</button>
 
 							</li>
 
 							<li style={{backgroundColor: "#8f1414"}}>
-							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/burger.png" height="80px" width="80px"/>
+							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/projectJK/burger.png" height="80px" width="80px"/>
 							<span style={{color: "white", fontSize: "1.5em", marginLeft: "1em"}}>Item Name</span>
 							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>View</button>
 
 							</li>
 
 							<li style={{backgroundColor: "#f5f107"}}>
-							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/burger.png" height="80px" width="80px"/>
+							<img style={{marginRight: "0.5em",backgroundColor: "white"}} src="/projectJK/burger.png" height="80px" width="80px"/>
 							<span style={{color: "white", fontSize: "1.5em", marginLeft: "1em"}}>Item Name</span>
 							<button style={{ fontSize: "1em", float: "right", marginTop: "0.5em"}}>View</button>
 
@@ -280,7 +280,7 @@ function Dashboard(){
 
 				<div className="Six" style={{overflowY: "auto"}}>
 
-					<h2 style={{color: "white", textAlign: "center"}}><button><a href="/learn">Learn</a></button></h2>
+					<h2 style={{color: "white", textAlign: "center"}}><button><a href="/projectJK/learn">Learn</a></button></h2>
 					<h3 style={{color: "white", textAlign: "center"}}>Recommended:</h3>
 		
 		<h4 style={{color: "white", textAlign: "left"}}>SSRIs: Module <span><button style={{textAlign: "right"}}>Go</button></span></h4>

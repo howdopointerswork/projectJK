@@ -9,7 +9,7 @@ function Settings(){
 	
 	return(
 
-		<div>
+		<div style={{backgroundColor: "black", color: "white"}}>
 			<header style={{ float: "right" }}>
 				<Search />
 				<Logout />

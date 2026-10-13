@@ -15,7 +15,7 @@ function Discover(){
 				<Search />
 				<Logout />
 			</header>
-			<a href="/dashboard" style={{ color: "white" }}>Return</a>
+			<a href="/projectJK/dashboard" style={{ color: "white" }}>Return</a>
 			<h1 style={{color: "white", textAlign: "center", borderBottom: "2px solid white", borderTop: "2px solid white", backgroundColor: "#111122"}}>Discover</h1>i
 
 			<div className="discover" style={{borderBottom: "2px solid white"}}>
@@ -27,7 +27,7 @@ function Discover(){
 			</div>
 			<div className="gps">
 
-				<img style={{margin: "0 auto"}} height="600px" width="800px" src="/map.png"/>
+				<img style={{margin: "0 auto"}} height="600px" width="800px" src="/projectJK/map.png"/>
 			</div>
 			</div>
 

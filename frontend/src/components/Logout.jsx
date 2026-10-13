@@ -17,7 +17,7 @@ function Logout(){
 //set a timeout to log out
 	
 	return(
-		<button onClick={(e) => resetInfo(e)}><a style={{ textDecoration: "none", color: "black" }} href="/">Logout</a></button>
+		<button onClick={(e) => resetInfo(e)}><a style={{ textDecoration: "none", color: "black" }} href="/projectJK">Logout</a></button>
 
 	);
 

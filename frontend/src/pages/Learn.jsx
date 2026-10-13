@@ -18,44 +18,44 @@ function Learn(){
 				<Search />
 				<Logout />
 			</header>
-			<a href="/dashboard" style={{ color: "white" }}>Return</a>
+			<a href="/projectJK/dashboard" style={{ color: "white" }}>Return</a>
 			<br></br>
 					<h2 style={{color: "white", textAlign: "center", borderBottom: "solid 2px white", borderTop: "solid 2px white", marginTop: "1.5em", backgroundColor: "#111122"}}>Modules</h2>
 					<ul style={{display: "flex", flexDirection: "horizontal", overflowX: "auto"}}>
 						
 						<li><figure>
-						<button style={{backgroundColor: "#111122"}}><img src="/book.png" height="80px" width="80px" style={{padding: "0.5em"}}/></button>
+						<button style={{backgroundColor: "#111122"}}><img src="/projectJK/book.png" height="80px" width="80px" style={{padding: "0.5em"}}/></button>
 						<figcaption style={{color: "white"}}>Module 1</figcaption>
 						</figure></li>
 			<li><figure>
-						<button style={{backgroundColor: "#111122"}}><img src="/book.png" height="80px" width="80px" style={{padding: "0.5em"}}/></button>
+						<button style={{backgroundColor: "#111122"}}><img src="/projectJK/book.png" height="80px" width="80px" style={{padding: "0.5em"}}/></button>
 						<figcaption style={{color: "white"}}>Module 2</figcaption>
 						</figure></li>
 
 									<li><figure>
-						<button style={{backgroundColor: "#111122"}}><img src="/book.png" height="80px" width="80px" style={{padding: "0.5em"}}/></button>
+						<button style={{backgroundColor: "#111122"}}><img src="/projectJK/book.png" height="80px" width="80px" style={{padding: "0.5em"}}/></button>
 						<figcaption style={{color: "white"}}>Module 3</figcaption>
 						</figure></li>
 			<li><figure>
-						<button  style={{backgroundColor: "#111122"}}><img src="/book.png" height="80px" width="80px" style={{padding: "0.5em"}}/></button>
+						<button  style={{backgroundColor: "#111122"}}><img src="/projectJK/book.png" height="80px" width="80px" style={{padding: "0.5em"}}/></button>
 						<figcaption style={{color: "white"}}>Module 4</figcaption>
 						</figure></li>
 		<li><figure>
-						<button style={{backgroundColor: "#111122"}}><img src="/book.png" height="80px" width="80px" style={{padding: "0.5em"}}/></button>
+						<button style={{backgroundColor: "#111122"}}><img src="/projectJK/book.png" height="80px" width="80px" style={{padding: "0.5em"}}/></button>
 						<figcaption style={{color: "white"}}>Module 5</figcaption>
 						</figure></li>
 			<li><figure>
-						<button style={{backgroundColor: "#111122"}}><img src="/book.png" height="80px" width="80px" style={{padding: "0.5em"}}/></button>
+						<button style={{backgroundColor: "#111122"}}><img src="/projectJK/book.png" height="80px" width="80px" style={{padding: "0.5em"}}/></button>
 						<figcaption style={{color: "white"}}>Module 6</figcaption>
 						</figure></li>
 
 
 		<li><figure>
-						<button style={{backgroundColor: "#111122"}}><img src="/book.png" height="80px" width="80px" style={{padding: "0.5em"}}/></button>
+						<button style={{backgroundColor: "#111122"}}><img src="/projectJK/book.png" height="80px" width="80px" style={{padding: "0.5em"}}/></button>
 						<figcaption style={{color: "white"}}>Module 1</figcaption>
 						</figure></li>
 			<li><figure>
-						<button style={{backgroundColor: "#111122"}}><img src="/book.png" height="80px" width="80px" style={{padding: "0.5em"}}/></button>
+						<button style={{backgroundColor: "#111122"}}><img src="/projectJK/book.png" height="80px" width="80px" style={{padding: "0.5em"}}/></button>
 						<figcaption style={{color: "white"}}>Module 1</figcaption>
 						</figure></li>
 					</ul>
@@ -114,7 +114,7 @@ function Learn(){
 
 					<h2 style={{color: "white", textAlign: "left"}}>Heading</h2>
 					<p style={{color: "white"}}>lorem ipsum dolor sit amet consectetur adipiscing elit distinctio nisi accusamus consequat</p>
-					<img src="/camera.png" height="300px" width="400px" style={{padding: "1em", marginRight: "1em", float: "left",backgroundColor: "grey", overflowY: "auto"}}/>
+					<img src="/projectJK/camera.png" height="300px" width="400px" style={{padding: "1em", marginRight: "1em", float: "left",backgroundColor: "grey", overflowY: "auto"}}/>
 					<p style={{color: "white"}}>
 					
 

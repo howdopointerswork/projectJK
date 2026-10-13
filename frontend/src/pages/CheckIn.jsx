@@ -10,12 +10,12 @@ function CheckIn(){
 
 	return(
 
-		<div style={{color: "white"}}>
+		<div style={{color: "white", backgroundColor: "black"}}>
 			<header style={{ float: "right" }}>
 				<Search />
 				<Logout />
 			</header>
-			<a href="/dashboard" style={{ color: "white" }}>Return</a>
+			<a href="/projectJK/dashboard" style={{ color: "white" }}>Return</a>
 			<h1 style={{color: "white", textAlign: "center", borderBottom: "2px solid white"}}>Check-In</h1>
 
 			<form className="survey" style={{textAlign: "center", margin: "0 auto", fontSize: "1em"}}>

@@ -30,11 +30,11 @@ function Home(){
 		<div className="dropdown" style={{ backgroundColor: "grey", position: "absolute", overflowY: "auto", height: "250px", width: "200px", margin: "0 auto", display: open ? "block" : "none" }}>
 			<ul className="displayDropdown" style={{ color: "black", textAlign: "center", display: "flex", flexDirection: "column" }}>
 				
-				<button><a href="/profileA">Profile</a></button>
-				<button><a href="/checkinA">Survey</a></button>
-				<button><a href="/accountA">Account</a></button>
-				<button><a href="/settingsA">Settings</a></button>
-				<button><a href="/notificationsA">Notifications</a></button>
+				<button><a href="/projectJK/profileA">Profile</a></button>
+				<button><a href="/projectJK/checkinA">Survey</a></button>
+				<button><a href="/projectJK/accountA">Account</a></button>
+				<button><a href="/projectJK/settingsA">Settings</a></button>
+				<button><a href="/projectJK/notificationsA">Notifications</a></button>
 
 			</ul>
 
@@ -46,7 +46,7 @@ function Home(){
 			<h1 style={{borderBottom: "2px solid black"}}>Article Title</h1>
 			<div style={{borderBottom: "2px solid black"}} className="home_slideshow">
 				<figure>
-					<img src="/health.jpg" height="600px"/>
+					<img src="/projectJK/health.jpg" height="600px"/>
 					<figcaption>
 					
 				
@@ -76,17 +76,17 @@ function Home(){
 			<div style={{border: "solid 4px black", display: "flex", justifyContent: "center",overflowX: "auto", margin: "0 auto", width: "168%", textAlign: "center"}}>
 		
 			<ul style={{display: "flex", flexDirection: "horizontal", justifyContent: "center", textAlign: "center"}}>
-	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
-	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
-	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
-	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
-	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
-	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
-	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
-	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
-	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
-	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
-	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
+	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/projectJK/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
+	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/projectJK/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
+	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/projectJK/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
+	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/projectJK/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
+	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/projectJK/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
+	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/projectJK/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
+	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/projectJK/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
+	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/projectJK/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
+	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/projectJK/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
+	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/projectJK/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
+	<li><figure style={{ backgroundColor: "#01403c", padding: "1em"}}><img style={{backgroundColor: "white",border: "4px solid black", padding: "0.5em"}} src="/projectJK/camera.png" height="100px" width="100px"/><figcaption style={{backgroundColor: "white", borderRadius: "10px", color: "black", marginTop: "0.5em"}}>Article</figcaption></figure></li>
 				</ul>
 				</div>
 			</div>
@@ -94,7 +94,7 @@ function Home(){
 
 			<div style={{backgroundColor: "#111122", color: "white"}} className="home_article1">
 				<h1>When Was Your Last Visit?</h1>
-				<img src="/heart.jpeg" height="400px" width="800px" style={{border: "4px solid white"}}/>
+				<img src="/projectJK/heart.jpeg" height="400px" width="800px" style={{border: "4px solid white"}}/>
 				<p>lorem ipsum dolor sit amet consectetur adipiscing elit distinctio nisi accusamus consequat deserunt imperdiet facilis officia non similique est culpa dolor est blanditiis culpa vero aliqua nobis et qui sint eos sint ut ut nisi corrupti dolorem reprehenderit minus consequatur cupidatat occaecat quo sit cillum soluta do esse quibusdam et<br></br><br></br>
 lorem ipsum dolor sit amet consectetur adipiscing elit distinctio nisi accusamus consequat deserunt imperdiet facilis officia non similique est culpa dolor est blanditiis culpa vero aliqua nobis et qui sint eos sint ut ut nisi corrupti dolorem reprehenderit minus consequatur cupidatat occaecat quo sit cillum soluta do esse quibusdam et
 </p>
@@ -117,7 +117,7 @@ lorem ipsum dolor sit amet consectetur adipiscing elit distinctio nisi accusamus
 
 			<div height="250px" style={{backgroundColor: "#111122", color: "white"}}>
 				<h1>Learn from Modules</h1>
-			<img src="/camera.png" height="200px" width="300px" style={{backgroundColor: "white"}}/>
+			<img src="/projectJK/camera.png" height="200px" width="300px" style={{backgroundColor: "white"}}/>
 				<p>
 				
 lorem ipsum dolor sit amet consectetur adipiscing elit distinctio nisi accusamus consequat deserunt imperdiet facilis officia non similique est culpa dolor est blanditiis culpa vero aliqua nobis et qui sint eos sint ut ut nisi corrupti dolorem reprehenderit minus consequatur cupidatat occaecat quo sit cillum soluta do esse quibusdam et

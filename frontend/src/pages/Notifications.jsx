@@ -11,12 +11,12 @@ function Notifications(){
 
 	return(
 
-		<div>
+		<div style={{backgroundColor: "black", color: "white"}}>
 				<header style={{ float: "right" }}>
 				<Search />
 				<Logout />
 			</header>
-			<a href="/dashboard" style={{ color: "white" }}>Return</a>
+			<a href="/projectJK/dashboard" style={{ color: "white" }}>Return</a>
 			<h1 style={{color: "white", textAlign: "center", borderBottom: "2px solid white"}}>Notifications</h1>
 
 			<ul>

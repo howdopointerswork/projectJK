@@ -48,7 +48,7 @@ function LoginA(){
 
 				<label htmlFor="password">Password</label>
 				<input type="password" name="password"/>
-				<button className="loginButton" style={{ width: "auto", backgroundColor: "#01403c", color: "white" }}>Login</button>
+				<button className="loginButton" style={{ width: "auto", backgroundColor: "#01403c", color: "white" }}><a href="/projectJK/home">Login</a></button>
 			</form>
 
 				<button style={{textDecoration: "none", color: "white", border: "solid 2px black", borderRadius: "10px", padding: "1em", backgroundColor: "#111122" }} >Forgot Password</button>

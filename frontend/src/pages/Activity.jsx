@@ -13,7 +13,7 @@ function Activity(){
 				<Search />
 				<Logout />
 			</header>
-			<a href="/dashboard" style={{ color: "white" }}>Return</a>
+			<a href="/projectJK/dashboard" style={{ color: "white" }}>Return</a>
 			<h1 style={{color: "white", textAlign: "center", borderBottom: "2px solid white"}}>Your Acitivty</h1>
 
 			<ul>

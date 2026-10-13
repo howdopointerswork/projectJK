@@ -10,7 +10,7 @@ function Account(){
 
 	return(
 
-		<div>
+		<div style={{backgroundColor: "black", color: "white"}}>
 
 
 
@@ -18,7 +18,7 @@ function Account(){
 				<Search />
 				<Logout />
 			</header>
-			<a href="/dashboard" style={{ color: "white" }}>Return</a>
+			<a href="/projectJK/dashboard" style={{ color: "white" }}>Return</a>
 			<h1 style={{color: "white", textAlign: "center", borderBottom: "2px solid white"}}>Account</h1>
 
 			<details open style={{color: "white", fontSize: "1.5em"}}>
