@@ -38,7 +38,7 @@ function App() {
 	 
 	  	<Routes>
 			<Route path="/" element={<Login />} />
-	  		<Route path="/dashboard" element={<Dashboard />} />
+	  		<Route path="/projectJK/dashboard" element={<Dashboard />} />
 	  		<Route path="/profile/:id" element={<Profile />} />
 	  		<Route path="/explore" element={<Explore />} />
 	  		<Route path="/discover" element={<Discover />} />
