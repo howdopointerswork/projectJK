@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import './App.css';
 
 
@@ -25,13 +26,14 @@ import SettingsA from "./pages/SettingsA";
 import NotificationsA from "./pages/NotificationsA";
 import LoginA from "./pages/LoginA";
 
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
      
 
-	  <BrowserRouter basename="/projectJK">
+	  <HashRouter basename="/projectJK">
 	 
 	 
 	  	<Routes>
@@ -59,7 +61,7 @@ function App() {
 
 	
 	  	</Routes>
-	  </BrowserRouter>
+	  </HashRouter>
   );
 }
 
