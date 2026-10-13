@@ -33,7 +33,7 @@ function App() {
   return (
      
 
-	  <HashRouter basename="/projectJK">
+	  <HashRouter>
 	 
 	 
 	  	<Routes>
